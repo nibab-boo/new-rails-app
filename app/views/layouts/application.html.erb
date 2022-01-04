@@ -11,6 +11,13 @@
   </head>
 
   <body>
+    <h1 style="text-align:center; background-color: red; padding:40px 0;">Test webapp</h1>
+
+    <%= link_to "Our home", root_path %>
+    <%= link_to "Know more about us", about_path %>
+    <%= link_to "Meet ox  ur team", contact_path %>
     <%= yield %>
+  
+    <footer style="width: 100vw; text-align:center; background-color: rgba(255, 0, 0, 0.6); padding:10px 0;">The simple footer</footer>
   </body>
 </html>
